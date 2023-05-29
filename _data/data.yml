@@ -104,6 +104,11 @@ career-profile:
 education:
     title: Education
     info:
+      - degree : PhD in Gravitation and Cosmology
+        university: University of Rome, 'La Sapienza'
+        time : Oct 2016 - Oct 2019
+        details: |
+        
       - degree: MSc in Astronomy & Astrophysics
         university: University of Rome, 'La Sapienza'
         time: Oct 2013 - Oct 2015
