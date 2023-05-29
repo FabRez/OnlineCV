@@ -64,6 +64,9 @@ sidebar:
       - skill: Python for Data Analysis and Visualization
         tools: Numpy, Pandas, Seaborn, Matplotlib, BeautifulSoup, Regex
 
+      - skill: Python for GeoData
+        tools: Geopandas, Contextily, Shapely
+
       - skill: Python for Machine Learning
         tools: TensorFlow, Keras, Scikit-Learn
 
@@ -71,10 +74,10 @@ sidebar:
         tools: Mathematica, Jupyter, Colab
 
       - skill: Text Languages/Editors
-        tools: vim, LaTex, Visual Studio Code
+        tools: vim, LaTex, VS Code, Emacs
 
       - skill: Operating System
-        tools: Unix (Linux & Fedora), Windows
+        tools: Unix (Linux, Fedora, Arch), Windows
       
       - skill: Software Development
         tools: Git
@@ -105,28 +108,35 @@ education:
         university: University of Rome, 'La Sapienza'
         time: Oct 2013 - Oct 2015
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          
       - degree: BSc in Astrophysics
         university: University of Rome, 'La Sapienza'
         time: Oct 2010 - Oct 2013
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+          
 experiences:
     title: Experiences
     info:
+      - role: Junior Data Scientist
+        time: Mar 2023 - present
+        company: Machine Learning Programs (MLP)
+        details: |
+            - Data drift detection : 
+             Implemented techniques to detect and monitor data drift in production systems. 
+             Developed statistical methods and automated processes to compare the data distributions identifying shifts that could impact model performance. 
+             - Geographical enrichments for training pipeline: 
+             Developed and implemented data preprocessing techniques to incorporate geographical features into the data used for training. 
+             This involved geocoding, spatial data manipulation, and feature engineering.
+             - Unit testing and coverage of in-house Python libraries:
+              Wrote comprehensive unit tests and performed code coverage analysis 
+              for critical Python libraries developed in-house. 
+              This ensured the reliability and robustness of the libraries, 
+              promoting code quality and reducing potential bugs or issues.
+             - Feature importance analysis: 
+             Utilized techniques such as permutation importance and SHAP values 
+             to analyze the importance of features in machine learning models to provide valuable 
+             insights into the underlying factors driving predictions 
+            
       - role: Postdoctoral Researcher
         time: Nov 2019 - Nov 2022
         company: Lorentz Institute for Theoretical Physics, Leiden University, Leiden
@@ -149,75 +159,37 @@ experiences:
 
 publications:
     title: Publications
-    intro: |
-      Some of my most recent publications relevant for data analysis and machine learning. A link to my complete list of publications can be found in the sidebar.
-    papers:
-      - title: A novel model-marginalized cosmological bound on the QCD axion mass
-        link: "https://arxiv.org/abs/2212.11926v1"
-        authors: Eleonora Di Valentino, Stefano Gariazzo, William Giarè, Alessandro Melchiorri, Olga Mena, Fabrizio Renzi
-        conference: arXiv:2212.11926
-
-      - title: Harrison-Zel'dovich spectrum gets back?
-        link: "https://arxiv.org/abs/2210.09018"
-        authors: William Giarè, Fabrizio Renzi, Olga Mena, Eleonora Di Valentino, Alessandro Melchiorri
-        conference: arXiv:2210.09018
-
-      - title: The resilience of the Etherington–Hubble relation
-        link: "https://arxiv.org/abs/2112.05701"
-        authors: Fabrizio Renzi, Natalie B. Hogg, William Giarè
-        conference: "Mon.Not.Roy.Astron.Soc. 513 (2022) 4004"
-
-      - title: Climbing out of the shadows
-        link: "https://arxiv.org/abs/2205.03396"
-        authors: Fabrizio Renzi and Matteo Martinelli
-        conference: "Phys.Dark Univ. 37 (2022) 101104"
-
-      - title: Hubble speed from first principles
-        link: "https://arxiv.org/abs/2011.10559"
-        authors: Fabrizio Renzi and Alessandra Silvestri
-        conference: Soon appearing on PRD
+    intro: 
+      As a cosmologist, I have published up to 20 papers during my academic career. 
+      My research has dealt with developing algorithms for the analysis of observational data to gain insights 
+      into the composition and the evolution of the Universe. This endeavor has involved tools such as Python, Probabilistic Machine learning, Distributed Computing and Mathematical Modeling. 
+      On many occasions I have been invited to discuss the outcome of my research in international conferences and workshops.
 
 
 projects:
     title: Awards and Certifications
     info:
-      - role: Progetti di Avvio alla Ricerca
-        time: Nov 2017
-        company: University of Rome,  “La Sapienza”
+      - role: Machine Learning
+        time: May 2023
+        company: Stanford University & DeepLearning.AI on Coursera
         details: |
-            [Solving inflationary gravitational wave and primordial magnetic field superimposition in CMB polarisation spectrum with future probes](https://www.uniroma1.it/it/pagina/archivio-finanziamenti)
-      - role: Scientific Computing with Python
-        time: Nov 2022
-        company: FreeCodeCamp.org
-        details: |
-            [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/scientific-computing-with-python-v7)
+            [Approximately 3 months of coursework at 10 hours per week](https://coursera.org/share/450d0a27a2f604b4f52a7cd5f6eac5cf)
       - role: Data Analysis with Python
         time: Nov 2022
         company: FreeCodeCamp.org
         details: |
             [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/data-analysis-with-python-v7)
-      - role: Machine Learning with Python
-        time: Jan 2023
+      - role: Scientific Computing with Python
+        time: Nov 2022
         company: FreeCodeCamp.org
         details: |
-            [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/machine-learning-with-python-v7)
-                  
+            [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/scientific-computing-with-pyt
+      - role: Progetti di Avvio alla Ricerca
+        time: Nov 2017
+        company: University of Rome,  “La Sapienza”
+        details: |
+            [Solving inflationary gravitational wave and primordial magnetic field superimposition in CMB polarisation spectrum with future probes](https://www.uniroma1.it/it/pagina/archivio-finanziamenti) 
 
-skills:
-    title: Soft Skills
-
-    toolset:
-      - name: Leadership and Teamwork
-        level: 80%
-
-      - name: Problem Solving
-        level: 90%
-
-      - name: Strategic Thinking
-        level: 90%
-
-      - name: Project and Resource Management
-        level: 80%
 
 
 footer: >
