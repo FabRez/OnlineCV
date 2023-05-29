@@ -126,21 +126,22 @@ experiences:
         time: Mar 2023 - present
         company: Machine Learning Programs (MLP)
         details: |
-            - Data drift detection : 
-             Implemented techniques to detect and monitor data drift in production systems. 
-             Developed statistical methods and automated processes to compare the data distributions identifying shifts that could impact model performance. 
-             - Geographical enrichments for training pipeline: 
-             Developed and implemented data preprocessing techniques to incorporate geographical features into the data used for training. 
-             This involved geocoding, spatial data manipulation, and feature engineering.
-             - Unit testing and coverage of in-house Python libraries:
-              Wrote comprehensive unit tests and performed code coverage analysis 
-              for critical Python libraries developed in-house. 
-              This ensured the reliability and robustness of the libraries, 
-              promoting code quality and reducing potential bugs or issues.
-             - Feature importance analysis: 
-             Utilized techniques such as permutation importance and SHAP values 
-             to analyze the importance of features in machine learning models to provide valuable 
-             insights into the underlying factors driving predictions 
+            - **Data drift detection** : 
+               - Implemented techniques to detect and monitor data drift in production systems. 
+               - Developed statistical methods and automated processes for data comparison. 
+               - Identification of possible issues for model performance
+
+             - **Geographical enrichments**: 
+               - Developed and implemented data preprocessing techniques to incorporate geographical features into training data. 
+               - Geocoding, spatial data manipulation, feature engineering and 2D geometrical analysis.
+
+             - **Unit testing and coverage**:
+               - Wrote unit tests and performed code coverage analysis for in-house Python libraries. 
+               - Improved code reliability and robustness and reducing potential bugs or issues.
+
+             - **Feature importance analysis**: 
+               - Utilized techniques such as permutation importance and SHAP values to analyze the importance of features 
+               - Provide valuable insights into the underlying factors driving predictions in production
             
       - role: Postdoctoral Researcher
         time: Nov 2019 - Nov 2022
