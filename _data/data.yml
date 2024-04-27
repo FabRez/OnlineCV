@@ -213,7 +213,11 @@ projects:
         details: |
             [Solving inflationary gravitational wave and primordial magnetic field superimposition in CMB polarisation spectrum with future probes](https://www.uniroma1.it/it/pagina/archivio-finanziamenti) 
 
-
+publications:
+  title: Publications
+  intro:
+    Authored over 20 papers on cosmology, focusing on algorithmic analysis of observational data to explore universe composition and evolution. 
+    Invited to present at international conferences, demonstrating leadership in scientific thought.
 
 footer: >
     Designed by Fabrizio Renzi from a template by <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">Sharath Kumar</a>
