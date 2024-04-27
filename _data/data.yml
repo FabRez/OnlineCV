@@ -123,40 +123,40 @@ education:
         details: |
           
 experiences:
-    title: Experiences
-    info:
-      - role: Junior Data Scientist
-        time: Mar 2023 - present
-        company: Machine Learning Programs (MLP)
-        details: |
-            - **Data drift detection** : 
-               - Implemented techniques to detect and monitor data drift in production systems. 
-               - Developed statistical methods and automated processes for data comparison. 
-               - Identification of possible issues for model performance
-
-             - **Geographical enrichments**: 
-               - Developed and implemented data preprocessing techniques to incorporate geographical features into training data. 
-               - Geocoding, spatial data manipulation, feature engineering and 2D geometrical analysis.
-
-             - **Unit testing and coverage**:
-               - Wrote unit tests and performed code coverage analysis for in-house Python libraries. 
-               - Improved code reliability and robustness and reducing potential bugs or issues.
-
-             - **Feature importance analysis**: 
-               - Utilized techniques such as permutation importance and SHAP values to analyze the importance of features 
-               - Provide valuable insights into the underlying factors driving predictions in production
-            
-      - role: Postdoctoral Researcher
-        time: Nov 2019 - Nov 2022
-        company: Lorentz Institute for Theoretical Physics, Leiden University, Leiden
-        details: |
-            - **Probabilistic Machine Learning** : 
-                - Utilized advanced statistical modeling techniques, such as Bayesian inference and probabilistic modeling, 
-                  to analyze complex cosmological datasets and extract meaningful insights.
-                - Applied machine learning algorithms, such as Gaussian Process and Markov Models, to reconstruct and extract information 
-                  from cosmological and astrophysical datasets
-                - Conducted rigorous data preprocessing, feature engineering, and exploratory data analysis to identify 
-                  relevant cosmological signatures and improve the performance of analytical models
+    - role: Data Scientist
+      time: Oct 2023 - present
+      company: Machine Learning Programs
+      details: |
+        - **Pricing Models for Insurance**
+           - Successfully led the development and deployment of advanced pricing applications, 
+             independently overseeing the entire lifecycle and receiving highly positive feedback from major clients.
+        - **Collaborative Development**
+           - Acted as a key developer in the creation of claim detection models, focusing on integrating robust data
+             processing and machine learning techniques to enhance predictive capabilities..  
+        - **Artificial Intelligence (AI) explainability**
+           - Led the integration of Large Language Models (LLM) to enhance model transparency and explainability 
+             within the insurance sector. 
+        - **Team Leader**
+           - Managed a cross-functional team, including a front-end developer, to design a user-friendly interface for general pricing models, 
+             enhancing user engagement and client satisfaction.
+           - Headed a team, including a data engineer and an intern, to innovate and apply LLM in explainability projects, 
+             significantly advancing the practical use of AI technologies in the industry.
+    - role: Junior Data Scientist
+      time: Mar 2023 - Oct 2023
+      company: Machine Learning Programs (MLP)
+      details: |
+        - **Early-Career Contribution** : 
+           - Collaborated in the development and initial deployment of pricing models under supervision, 
+             gaining essential skills and experience in model lifecycle management.
+        - **Geographical enrichments**: 
+           - Spearheaded the integration of geographic data into models through advanced preprocessing 
+             and feature engineering techniques, including geocoding and spatial analysis
+        - **Unit testing and coverage**:
+           - Implemented unit tests and conducted code coverage analysis to improve 
+             reliability and robustness of Python in-house library, significantly reducing bug occurrences.
+        - **Feature importance analysis**:
+           - Applied feature importance and SHAP analysis to evaluate and report on feature relevance, 
+             informing strategic model adjustments.
 
             - **Student Supervision** :
                 - Supervised and mentored three Master Students, providing guidance in the application of statistical methods, 
