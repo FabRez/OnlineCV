@@ -64,6 +64,9 @@ sidebar:
       - skill: Python for Data Analysis and Visualization
         tools: Numpy, Pandas, Seaborn, Matplotlib, BeautifulSoup, Regex
 
+      - skill: Python for API development
+        tools: FastAPI, Pydantic, Locust
+
       - skill: Python for GeoData
         tools: Geopandas, Contextily, Shapely
 
@@ -78,9 +81,9 @@ sidebar:
 
       - skill: Operating System
         tools: Unix (Linux, Fedora, Arch), Windows
-      
+
       - skill: Software Development
-        tools: Git
+        tools: GitLab, GitHub
 
       - skill: HPC Environment
         tools: SLURM, OpenMPI
