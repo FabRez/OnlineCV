@@ -3,66 +3,69 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Fabrizio Renzi
-    tagline: Astrophysicist & Data Scientist
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Fabrizio Renzi, PhD
+  tagline: Astrophysicist & Data Scientist
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: fabrez.fr91@gmail.com
-    phone: +39 3294092372
-    timezone: Leiden, NL #America/Cancun Timezone
-    #ciizenship: Italian
-    website: #blog.webjeda.com #do not add http://
-    linkedin: FabRez #alandoe
-    xing: #alandoe
-    github: FabRez
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: #'@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: #http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: fabrez.fr91@gmail.com
+  phone: +39 3294092372
+  timezone: Leiden, NL #America/Cancun Timezone
+  #ciizenship: Italian
+  website: #blog.webjeda.com #do not add http://
+  linkedin: FabRez #alandoe
+  xing: #alandoe
+  github: FabRez
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter: #'@webjeda'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: resume.pdf #place a pdf file inside /assets/pdf/ folder and provide the name of the file below
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Italian
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Italian
+        level: Native
 
-        - idiom: English
-          level: C2
+      - idiom: English
+        level: C2
 
-        - idiom: Spanish
-          level: A2
+      - idiom: Spanish
+        level: A2
 
-    interests:
-      title: Interests
-      info:
-        - item: Videogames
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Videogames
+        link:
 
-        - item: Snowboarding
-          link:
+      - item: Snowboarding
+        link:
 
-        - item: Cooking
-          link:
+      - item: Cooking
+        link:
 
-        - item: Crypto/Stock Market
-          link: 
-    skillsbar:
-      title: Technical Skills
-      info:
+      - item: Crypto/Stock Market
+        link:
+  skillsbar:
+    title: Technical Skills
+    info:
       - skill: Programming Language
         tools: Python, Fortran 2003, Markdown, HTML, Bash, SQL
 
       - skill: Python for Data Analysis and Visualization
         tools: Numpy, Pandas, Seaborn, Matplotlib, BeautifulSoup, Regex
+
+      - skill: Python for API development
+        tools: FastAPI, Pydantic, Locust
 
       - skill: Python for GeoData
         tools: Geopandas, Contextily, Shapely
@@ -78,136 +81,146 @@ sidebar:
 
       - skill: Operating System
         tools: Unix (Linux, Fedora, Arch), Windows
-      
+
       - skill: Software Development
-        tools: Git
+        tools: GitLab, GitHub
 
       - skill: HPC Environment
         tools: SLURM, OpenMPI
 
-    communication:
-      title: Communication
-      info: 
-        - skill: WRITTEN
-        - summary: Expertise in showing results, writing reports and scientific articles. My publication list can be found on [InspireHEP](https://inspirehep.net/authors/1937448?ui-citation-summary=true)  
+  communication:
+    title: Communication
+    info:
+      - skill: WRITTEN
+      - summary: Expertise in showing results, writing reports and scientific articles. My publication list can be found on [InspireHEP](https://inspirehep.net/authors/1937448?ui-citation-summary=true)
 
-        - skill: ORAL
-        - summary: Invited to give public talks and seminars in several international institutions and conferences. See for example [here](https://www.youtube.com/watch?v=-AmMJe2LUiQ&list=PL1CFLtxeIrQp_YaNnQJX7mYTyoTOkl1q5)
+      - skill: ORAL
+      - summary: Invited to give public talks and seminars in several international institutions and conferences. See for example [here](https://www.youtube.com/watch?v=-AmMJe2LUiQ&list=PL1CFLtxeIrQp_YaNnQJX7mYTyoTOkl1q5)
 career-profile:
-    title: About Me
-    summary: |
-      A results-driven data analyst and machine learning expert, combining technical skills, innovative thinking, ability to work effectively in a team, 
-      drive for innovation and strong communication skills to drive progress and solve complex problems in a fast-paced, high-pressure environment. 
-      With numerous publications in international journals and a deep understanding of cutting-edge algorithms, 
-      I bring a unique perspective to data analysis and simulation, shaping the future and delivering impactful results
-      
+  title: About Me
+  summary: |
+    A results-driven data analyst and machine learning expert, combining technical skills, innovative thinking, ability to work effectively in a team, 
+    drive for innovation and strong communication skills to drive progress and solve complex problems in a fast-paced, high-pressure environment. 
+    With numerous publications in international journals and a deep understanding of cutting-edge algorithms, 
+    I bring a unique perspective to data analysis and simulation, shaping the future and delivering impactful results
+
 education:
-    title: Education
-    info:
-      - degree : PhD in Gravitation and Cosmology
-        university: University of Rome, 'La Sapienza'
-        time : Oct 2016 - Oct 2019
-        details: |
-        
-      - degree: MSc in Astronomy & Astrophysics
-        university: University of Rome, 'La Sapienza'
-        time: Oct 2013 - Oct 2015
-        details: |
-          
-      - degree: BSc in Astrophysics
-        university: University of Rome, 'La Sapienza'
-        time: Oct 2010 - Oct 2013
-        details: |
-          
+  title: Education
+  info:
+    - degree: PhD in Gravitation and Cosmology
+      university: University of Rome, 'La Sapienza'
+      time: Oct 2016 - Oct 2019
+      details: |
+
+    - degree: MSc in Astronomy & Astrophysics
+      university: University of Rome, 'La Sapienza'
+      time: Oct 2013 - Oct 2015
+      details: |
+
+    - degree: BSc in Astrophysics
+      university: University of Rome, 'La Sapienza'
+      time: Oct 2010 - Oct 2013
+      details: |
+
 experiences:
-    title: Experiences
-    info:
-      - role: Junior Data Scientist
-        time: Mar 2023 - present
-        company: Machine Learning Programs (MLP)
-        details: |
-            - **Data drift detection** : 
-               - Implemented techniques to detect and monitor data drift in production systems. 
-               - Developed statistical methods and automated processes for data comparison. 
-               - Identification of possible issues for model performance
+  title: Experiences
+  info:
+    - role: Data Scientist
+      time: Oct 2023 - present
+      company: Machine Learning Programs
+      details: |
+        - **Pricing Models for Insurance**
+           - Successfully led the development and deployment of advanced pricing applications, 
+             independently overseeing the entire lifecycle and receiving highly positive feedback from major clients.
+        - **Collaborative Development**
+           - Acted as a key developer in the creation of claim detection models, focusing on integrating robust data
+             processing and machine learning techniques to enhance predictive capabilities..  
+        - **Artificial Intelligence (AI) explainability**
+           - Led the integration of Large Language Models (LLM) to enhance model transparency and explainability 
+             within the insurance sector. 
+        - **Team Leader**
+           - Managed a cross-functional team, including a front-end developer, to design a user-friendly interface for general pricing models, 
+             enhancing user engagement and client satisfaction.
+           - Headed a team, including a data engineer and an intern, to innovate and apply LLM in explainability projects, 
+             significantly advancing the practical use of AI technologies in the industry.
+    - role: Junior Data Scientist
+      time: Mar 2023 - Oct 2023
+      company: Machine Learning Programs (MLP)
+      details: |
+        - **Early-Career Contribution** : 
+           - Collaborated in the development and initial deployment of pricing models under supervision, 
+             gaining essential skills and experience in model lifecycle management.
+        - **Geographical enrichments**: 
+           - Spearheaded the integration of geographic data into models through advanced preprocessing 
+             and feature engineering techniques, including geocoding and spatial analysis
+        - **Unit testing and coverage**:
+           - Implemented unit tests and conducted code coverage analysis to improve 
+             reliability and robustness of Python in-house library, significantly reducing bug occurrences.
+        - **Feature importance analysis**:
+           - Applied feature importance and SHAP analysis to evaluate and report on feature relevance, 
+             informing strategic model adjustments.
+    - role: Postdoctoral Researcher
+      time: Nov 2019 - Nov 2022
+      company: Lorentz Institute for Theoretical Physics, Leiden University, Leiden
+      details: |
+        - **Probabilistic Machine Learning** : 
+            - Utilized advanced statistical modeling techniques, such as Bayesian inference and probabilistic modeling, 
+              to analyze complex datasets and extract meaningful insights.
+            - Applied machine learning algorithms, such as Gaussian Process and Markov Models, to reconstruct and extract 
+              information from cosmological and astrophysical datasets
+            - Conducted rigorous data preprocessing, feature engineering, and exploratory data analysis to identify 
+              relevant cosmological signatures and improve the performance of analytical models
 
-             - **Geographical enrichments**: 
-               - Developed and implemented data preprocessing techniques to incorporate geographical features into training data. 
-               - Geocoding, spatial data manipulation, feature engineering and 2D geometrical analysis.
+        - **Student Supervision** :
+            - Supervised and mentored three Master’s students, guiding their research and mentoring them in the 
+              application of statistical methods for parameter tuning in data analysis.
 
-             - **Unit testing and coverage**:
-               - Wrote unit tests and performed code coverage analysis for in-house Python libraries. 
-               - Improved code reliability and robustness and reducing potential bugs or issues.
+        - **Seminar and Workshop Organization:** :
+            - Organized the Leiden University Theoretical Cosmology Seminar, facilitating knowledge exchange and collaboration 
+              among researchers in the field.
+            - Co-organized the Theoretical Cosmology (THC) meeting, coordinating presentations, discussions, and workshops 
+              on cutting-edge topics in theoretical cosmology.
 
-             - **Feature importance analysis**: 
-               - Utilized techniques such as permutation importance and SHAP values to analyze the importance of features 
-               - Provide valuable insights into the underlying factors driving predictions in production
-            
-      - role: Postdoctoral Researcher
-        time: Nov 2019 - Nov 2022
-        company: Lorentz Institute for Theoretical Physics, Leiden University, Leiden
-        details: |
-            - **Probabilistic Machine Learning** : 
-                - Utilized advanced statistical modeling techniques, such as Bayesian inference and probabilistic modeling, 
-                  to analyze complex cosmological datasets and extract meaningful insights.
-                - Applied machine learning algorithms, such as Gaussian Process and Markov Models, to reconstruct and extract information 
-                  from cosmological and astrophysical datasets
-                - Conducted rigorous data preprocessing, feature engineering, and exploratory data analysis to identify 
-                  relevant cosmological signatures and improve the performance of analytical models
-
-            - **Student Supervision** :
-                - Supervised and mentored three Master Students, providing guidance in the application of statistical methods, 
-                  machine learning algorithms, and data analysis techniques in cosmology research.
-
-            - **Seminar Organization** :
-                - Organized the Leiden University Theoretical Cosmology Seminar, facilitating knowledge exchange and collaboration 
-                  among researchers in the field.
-                - Co-organized the Theoretical Cosmology (THC) meeting, coordinating presentations, discussions, and workshops 
-                  on cutting-edge topics in theoretical cosmology.
-
-            - **Python-Fortran code development** :
-                - Led the development of the Python-Fortran Boltzmann-solver [EFTCAMB](http://eftcamb.org/codes/team.html), 
-                  an efficient and versatile tool for simulating and analyzing cosmological observables.
-
-            - **Misc** :
-                - Member of the [EuCapt](https://www.eucapt.org) Consortium and 
-                  of the [CosmoVerse](https://sites.google.com/sheffield.ac.uk/cosmoverse-seminars/home?pli=1) Collaboration
-                - Presented research findings at international conferences, contributing 
-                  to knowledge dissemination and fostering collaboration in the field.
-publications:
-    title: Publications
-    intro: 
-      As a cosmologist, I have published up to 20 papers during my academic career. 
-      My research has dealt with developing algorithms for the analysis of observational data to gain insights 
-      into the composition and the evolution of the Universe. This endeavor has involved tools such as Python, Probabilistic Machine learning, Distributed Computing and Mathematical Modeling. 
-      On many occasions I have been invited to discuss the outcome of my research in international conferences and workshops.
+        - **Software Development:** :
+            - Led the development of the Python-Fortran Boltzmann-solver EFTCAMB [EFTCAMB](http://eftcamb.org/codes/team.html), 
+              an efficient and versatile tool for simulating and analyzing cosmological observables. 
+        - **Professional Affiliations** :
+            - Member of the [EuCapt](https://www.eucapt.org) Consortium and 
+              of the [CosmoVerse](https://sites.google.com/sheffield.ac.uk/cosmoverse-seminars/home?pli=1) Collaboration
+            - Presented research findings at international conferences, contributing 
+              to knowledge dissemination and fostering collaboration in the field.
 
 
 projects:
-    title: Awards and Certifications
-    info:
-      - role: Machine Learning
-        time: May 2023
-        company: Stanford University & DeepLearning.AI on Coursera
-        details: |
-            [Approximately 3 months of coursework at 10 hours per week](https://coursera.org/share/450d0a27a2f604b4f52a7cd5f6eac5cf)
-      - role: Data Analysis with Python
-        time: Nov 2022
-        company: FreeCodeCamp.org
-        details: |
-            [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/data-analysis-with-python-v7)
-      - role: Scientific Computing with Python
-        time: Nov 2022
-        company: FreeCodeCamp.org
-        details: |
-            [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/scientific-computing-with-python-v7)
-      - role: Progetti di Avvio alla Ricerca
-        time: Nov 2017
-        company: University of Rome,  “La Sapienza”
-        details: |
-            [Solving inflationary gravitational wave and primordial magnetic field superimposition in CMB polarisation spectrum with future probes](https://www.uniroma1.it/it/pagina/archivio-finanziamenti) 
+  title: Awards and Certifications
+  info:
+    - role: Machine Learning
+      time: May 2023
+      company: Stanford University & DeepLearning.AI on Coursera
+      details: |
+        [Approximately 3 months of coursework at 10 hours per week](https://coursera.org/share/450d0a27a2f604b4f52a7cd5f6eac5cf)
+    - role: Data Analysis with Python
+      time: Nov 2022
+      company: FreeCodeCamp.org
+      details: |
+        [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/data-analysis-with-python-v7)
+    - role: Scientific Computing with Python
+      time: Nov 2022
+      company: FreeCodeCamp.org
+      details: |
+        [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/scientific-computing-with-python-v7)
+    - role: Progetti di Avvio alla Ricerca
+      time: Nov 2017
+      company: University of Rome,  “La Sapienza”
+      details: |
+        [Solving inflationary gravitational wave and primordial magnetic field superimposition in CMB polarisation spectrum with future probes](https://www.uniroma1.it/it/pagina/archivio-finanziamenti)
 
-
+  
+publications:
+  title: Publications
+  intro:
+    Authored over 20 papers on cosmology, focusing on algorithmic analysis of observational data to explore universe composition and evolution. 
+    Invited to present at international conferences, demonstrating leadership in scientific thought.
 
 footer: >
-    Designed by Fabrizio Renzi from a template by <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">Sharath Kumar</a>
+  Designed by Fabrizio Renzi from a template by <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">Sharath Kumar</a>
