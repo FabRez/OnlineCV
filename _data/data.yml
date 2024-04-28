@@ -3,61 +3,61 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Fabrizio Renzi
-    tagline: Astrophysicist & Data Scientist
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Fabrizio Renzi, PhD
+  tagline: Astrophysicist & Data Scientist
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: fabrez.fr91@gmail.com
-    phone: +39 3294092372
-    timezone: Leiden, NL #America/Cancun Timezone
-    #ciizenship: Italian
-    website: #blog.webjeda.com #do not add http://
-    linkedin: FabRez #alandoe
-    xing: #alandoe
-    github: FabRez
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: #'@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: #http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: fabrez.fr91@gmail.com
+  phone: +39 3294092372
+  timezone: Leiden, NL #America/Cancun Timezone
+  #ciizenship: Italian
+  website: #blog.webjeda.com #do not add http://
+  linkedin: FabRez #alandoe
+  xing: #alandoe
+  github: FabRez
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter: #'@webjeda'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: resume.pdf #place a pdf file inside /assets/pdf/ folder and provide the name of the file below
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Italian
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Italian
+        level: Native
 
-        - idiom: English
-          level: C2
+      - idiom: English
+        level: C2
 
-        - idiom: Spanish
-          level: A2
+      - idiom: Spanish
+        level: A2
 
-    interests:
-      title: Interests
-      info:
-        - item: Videogames
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Videogames
+        link:
 
-        - item: Snowboarding
-          link:
+      - item: Snowboarding
+        link:
 
-        - item: Cooking
-          link:
+      - item: Cooking
+        link:
 
-        - item: Crypto/Stock Market
-          link: 
-    skillsbar:
-      title: Technical Skills
-      info:
+      - item: Crypto/Stock Market
+        link:
+  skillsbar:
+    title: Technical Skills
+    info:
       - skill: Programming Language
         tools: Python, Fortran 2003, Markdown, HTML, Bash, SQL
 
@@ -88,41 +88,43 @@ sidebar:
       - skill: HPC Environment
         tools: SLURM, OpenMPI
 
-    communication:
-      title: Communication
-      info: 
-        - skill: WRITTEN
-        - summary: Expertise in showing results, writing reports and scientific articles. My publication list can be found on [InspireHEP](https://inspirehep.net/authors/1937448?ui-citation-summary=true)  
-
-        - skill: ORAL
-        - summary: Invited to give public talks and seminars in several international institutions and conferences. See for example [here](https://www.youtube.com/watch?v=-AmMJe2LUiQ&list=PL1CFLtxeIrQp_YaNnQJX7mYTyoTOkl1q5)
-career-profile:
-    title: About Me
-    summary: |
-      A results-driven data analyst and machine learning expert, combining technical skills, innovative thinking, ability to work effectively in a team, 
-      drive for innovation and strong communication skills to drive progress and solve complex problems in a fast-paced, high-pressure environment. 
-      With numerous publications in international journals and a deep understanding of cutting-edge algorithms, 
-      I bring a unique perspective to data analysis and simulation, shaping the future and delivering impactful results
-      
-education:
-    title: Education
+  communication:
+    title: Communication
     info:
-      - degree : PhD in Gravitation and Cosmology
-        university: University of Rome, 'La Sapienza'
-        time : Oct 2016 - Oct 2019
-        details: |
-        
-      - degree: MSc in Astronomy & Astrophysics
-        university: University of Rome, 'La Sapienza'
-        time: Oct 2013 - Oct 2015
-        details: |
-          
-      - degree: BSc in Astrophysics
-        university: University of Rome, 'La Sapienza'
-        time: Oct 2010 - Oct 2013
-        details: |
-          
+      - skill: WRITTEN
+      - summary: Expertise in showing results, writing reports and scientific articles. My publication list can be found on [InspireHEP](https://inspirehep.net/authors/1937448?ui-citation-summary=true)
+
+      - skill: ORAL
+      - summary: Invited to give public talks and seminars in several international institutions and conferences. See for example [here](https://www.youtube.com/watch?v=-AmMJe2LUiQ&list=PL1CFLtxeIrQp_YaNnQJX7mYTyoTOkl1q5)
+career-profile:
+  title: About Me
+  summary: |
+    A results-driven data analyst and machine learning expert, combining technical skills, innovative thinking, ability to work effectively in a team, 
+    drive for innovation and strong communication skills to drive progress and solve complex problems in a fast-paced, high-pressure environment. 
+    With numerous publications in international journals and a deep understanding of cutting-edge algorithms, 
+    I bring a unique perspective to data analysis and simulation, shaping the future and delivering impactful results
+
+education:
+  title: Education
+  info:
+    - degree: PhD in Gravitation and Cosmology
+      university: University of Rome, 'La Sapienza'
+      time: Oct 2016 - Oct 2019
+      details: |
+
+    - degree: MSc in Astronomy & Astrophysics
+      university: University of Rome, 'La Sapienza'
+      time: Oct 2013 - Oct 2015
+      details: |
+
+    - degree: BSc in Astrophysics
+      university: University of Rome, 'La Sapienza'
+      time: Oct 2010 - Oct 2013
+      details: |
+
 experiences:
+  title: Experiences
+  info:
     - role: Data Scientist
       time: Oct 2023 - present
       company: Machine Learning Programs
@@ -190,29 +192,30 @@ experiences:
 
 
 projects:
-    title: Awards and Certifications
-    info:
-      - role: Machine Learning
-        time: May 2023
-        company: Stanford University & DeepLearning.AI on Coursera
-        details: |
-            [Approximately 3 months of coursework at 10 hours per week](https://coursera.org/share/450d0a27a2f604b4f52a7cd5f6eac5cf)
-      - role: Data Analysis with Python
-        time: Nov 2022
-        company: FreeCodeCamp.org
-        details: |
-            [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/data-analysis-with-python-v7)
-      - role: Scientific Computing with Python
-        time: Nov 2022
-        company: FreeCodeCamp.org
-        details: |
-            [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/scientific-computing-with-python-v7)
-      - role: Progetti di Avvio alla Ricerca
-        time: Nov 2017
-        company: University of Rome,  “La Sapienza”
-        details: |
-            [Solving inflationary gravitational wave and primordial magnetic field superimposition in CMB polarisation spectrum with future probes](https://www.uniroma1.it/it/pagina/archivio-finanziamenti) 
+  title: Awards and Certifications
+  info:
+    - role: Machine Learning
+      time: May 2023
+      company: Stanford University & DeepLearning.AI on Coursera
+      details: |
+        [Approximately 3 months of coursework at 10 hours per week](https://coursera.org/share/450d0a27a2f604b4f52a7cd5f6eac5cf)
+    - role: Data Analysis with Python
+      time: Nov 2022
+      company: FreeCodeCamp.org
+      details: |
+        [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/data-analysis-with-python-v7)
+    - role: Scientific Computing with Python
+      time: Nov 2022
+      company: FreeCodeCamp.org
+      details: |
+        [Developer Certification, representing approximately 300 hours of coursework.](https://www.freecodecamp.org/certification/FabRez/scientific-computing-with-python-v7)
+    - role: Progetti di Avvio alla Ricerca
+      time: Nov 2017
+      company: University of Rome,  “La Sapienza”
+      details: |
+        [Solving inflationary gravitational wave and primordial magnetic field superimposition in CMB polarisation spectrum with future probes](https://www.uniroma1.it/it/pagina/archivio-finanziamenti)
 
+  
 publications:
   title: Publications
   intro:
@@ -220,4 +223,4 @@ publications:
     Invited to present at international conferences, demonstrating leadership in scientific thought.
 
 footer: >
-    Designed by Fabrizio Renzi from a template by <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">Sharath Kumar</a>
+  Designed by Fabrizio Renzi from a template by <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">Sharath Kumar</a>
