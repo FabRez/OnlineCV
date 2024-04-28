@@ -27,7 +27,7 @@ sidebar:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
-  pdf: resume.pdf #place a pdf file inside /assets/pdf/ folder and provide the name of the file below
+  pdf: #
 
   languages:
     title: Languages
@@ -167,18 +167,15 @@ experiences:
               for robust parameter estimation and model optimization
             - Applied machine learning algorithms, such as Gaussian Process and Markov Models, to reconstruct and extract 
               information from cosmological and astrophysical datasets
-
         - **Student Supervision** :
             - Supervised three Master’s students, guiding their research and mentoring them in the 
               application of statistical methods for parameter tuning in data analysis.
-
         - **Research and Publication** :
             - Authored over 20 papers on cosmology, focusing on algorithmic analysis of observational data to explore 
               universe composition and evolution.
             - Invited to present at international conferences, demonstrating leadership in scientific thought.
         - **Software Development:** :
             - Led the development of the Python-Fortran Boltzmann-solver [EFTCAMB](http://eftcamb.org/codes/team.html), 
-
 
 projects:
   title: Awards and Certifications
